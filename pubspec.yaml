@@ -1,0 +1,24 @@
+name: stream_feed_flutter_core
+description: Stream Feed unofficial Flutter SDK Core.
+version: 0.8.0
+repository: https://github.com/winnee0solta/stream-feed-flutter-unofficial
+issue_tracker: https://github.com/winnee0solta/stream-feed-flutter-unofficial/issues
+homepage: https://github.com/winnee0solta/stream-feed-flutter-unofficial
+environment:
+  sdk: ">=2.14.0 <4.0.0"
+  flutter: ">=1.17.0"
+
+dependencies:
+  dio: ^4.0.1
+  equatable: ^2.0.3
+  flutter:
+    sdk: flutter
+  meta: ^1.7.0
+  rxdart: ^0.27.1
+  stream_feed:
+    path: ./packages/stream_feed
+  # stream_feed: ^0.6.0+2
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  mocktail: ^0.3.0

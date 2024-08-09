@@ -1,34 +1,13 @@
-# Miscellaneous
-*.class
-*.lock
-*.log
-*.pyc
-*.swp
-.DS_Store
-.atom/
-.buildlog/
-.history
-.svn/
-
-# IntelliJ related
-*.iml
-*.ipr
-*.iws
-.idea/
-
-# Visual Studio Code related
-.vscode/
-
-# Flutter/Dart/Pub related
-**/doc/api/
+# Files and directories created by pub
 .dart_tool/
-.flutter-plugins
 .packages
-.pub-cache/
-.pub/
+
+# Omit commiting pubspec.lock for library packages:
+# https://dart.dev/guides/libraries/private-files#pubspeclock
+pubspec.lock
+
+# Conventional directory for build outputs
 build/
-example/pubspec.lock
-coverage.lcov
-coverage/
-packages/stream_feed_flutter/example/.flutter-plugins-dependencies
-packages/stream_feed_flutter/example/.flutter-plugins-dependencies
+
+# Directory created by dartdoc
+doc/api/
